@@ -1,6 +1,8 @@
 import React from 'react';
-import Login from './components/Login/Login';
-import Subscribe from './components/Subscribe/Subscribe';
+import Login from '../Login/Login';
+import Subscribe from '../Subscribe/Subscribe';
+import './App.css';
+
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 function App() {
